@@ -67,7 +67,6 @@ SwapNShop is an e-commerce platform that allows users to browse, search, and pur
 
 - **Frontend:**
   - React
-  - Redux
   - Bootstrap
 
 - **Backend:**
@@ -77,9 +76,6 @@ SwapNShop is an e-commerce platform that allows users to browse, search, and pur
 
 - **Authentication:**
   - JWT (JSON Web Token)
-
-- **Payment Gateway:**
-  - Stripe
 
 ## Contributing
 
@@ -100,11 +96,3 @@ Contributions are welcome! Please follow these steps:
     git push origin feature-name
     ```
 6. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiries or feedback, please contact us at support@swapnshop.com.
