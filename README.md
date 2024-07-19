@@ -96,3 +96,174 @@ Contributions are welcome! Please follow these steps:
     git push origin feature-name
     ```
 6. Open a pull request.
+   ### Week 1: Initial Setup and Basic Implementation
+
+**Date:** [Start Date] - [End Date]
+
+**Goals:**
+- Set up the development environment.
+- Install necessary dependencies.
+- Create the basic structure of the application.
+- Implement a simple Express.js server.
+
+**Tasks Completed:**
+1. **Development Environment Setup:**
+   - Installed Node.js and npm.
+   - Created the project directory (SwapNShop).
+
+2. **Project Initialization:**
+   - Initialized the project with `npm init -y`.
+
+3. **Dependency Installation:**
+   - Installed Express.js using `npm install express`.
+
+4. **Basic Server Implementation:**
+   - Created `app.js` with a basic Express.js server.
+   - Set up a route to serve the home page.
+
+5. **Static File Serving:**
+   - Created a `public` directory with `index.html`.
+   - Configured Express to serve static files from the `public` directory.
+
+6. **Testing:**
+   - Ran the server and verified it works by accessing `http://localhost:3000`.
+
+**Challenges:**
+- None reported.
+
+**Next Steps:**
+- Add more routes to the server.
+- Design database schema and set up database connection.
+- Implement user authentication.
+- Develop basic front-end pages using HTML/CSS.
+
+### Week 2: Adding Routes and Database Integration
+
+**Date:** [Start Date] - [End Date]
+
+**Goals:**
+- Define and implement main application routes.
+- Set up database connection (e.g., MongoDB or PostgreSQL).
+- Create models for users, products, and listings.
+
+**Tasks Completed:**
+1. **Route Implementation:**
+   - Created routes for user registration, login, and profile management.
+   - Set up routes for creating, reading, updating, and deleting product listings.
+
+2. **Database Setup:**
+   - Installed database driver (e.g., `mongodb` for MongoDB or `pg` for PostgreSQL).
+   - Established connection to the database.
+
+3. **Model Creation:**
+   - Defined schema for users, products, and listings.
+   - Created models and integrated them with the routes.
+
+4. **Testing:**
+   - Tested API endpoints using Postman.
+
+**Challenges:**
+- Database connection issues.
+
+**Next Steps:**
+- Implement user authentication and authorization.
+- Build front-end pages for user interactions.
+- Start integrating front-end with back-end APIs.
+
+### Week 3: User Authentication and Front-end Development
+
+**Date:** [Start Date] - [End Date]
+
+**Goals:**
+- Implement user authentication and authorization.
+- Develop front-end pages for user registration, login, and profile management.
+- Integrate front-end with back-end APIs.
+
+**Tasks Completed:**
+1. **Authentication:**
+   - Implemented user registration and login functionality.
+   - Set up session management or JWT for authentication.
+
+2. **Front-end Development:**
+   - Designed and developed pages for user registration and login.
+   - Created a user profile page with editable information.
+
+3. **API Integration:**
+   - Integrated front-end forms with back-end API endpoints for authentication.
+
+4. **Testing:**
+   - Conducted end-to-end testing of user registration and login flows.
+
+**Challenges:**
+- Ensuring secure password storage and authentication mechanisms.
+
+**Next Steps:**
+- Develop product listing pages and search functionality.
+- Implement user authorization for protected routes.
+- Start working on the main marketplace interface.
+
+### Week 4: Product Listings and Marketplace Interface
+
+**Date:** [Start Date] - [End Date]
+
+**Goals:**
+- Develop product listing and search functionality.
+- Create the main marketplace interface.
+- Enhance user experience with improved UI/UX design.
+
+**Tasks Completed:**
+1. **Product Listings:**
+   - Implemented routes and views for creating and managing product listings.
+   - Added search functionality to filter product listings.
+
+2. **Marketplace Interface:**
+   - Designed and developed the main marketplace page.
+   - Integrated product listings and search functionality into the marketplace interface.
+
+3. **UI/UX Enhancements:**
+   - Improved overall design and user experience of the application.
+
+4. **Testing:**
+   - Tested product listing and search features extensively.
+
+**Challenges:**
+- Designing an intuitive and responsive UI.
+
+**Next Steps:**
+- Implement messaging functionality between buyers and sellers.
+- Develop notification system for user interactions.
+- Optimize the application for performance and scalability.
+
+### Week 5: Messaging, Notifications, and Optimization
+
+**Date:** [Start Date] - [End Date]
+
+**Goals:**
+- Implement messaging functionality.
+- Develop a notification system for user interactions.
+- Optimize application performance and scalability.
+
+**Tasks Completed:**
+1. **Messaging Functionality:**
+   - Implemented real-time messaging between buyers and sellers using Socket.io.
+   - Set up the necessary back-end and front-end components for messaging.
+
+2. **Notification System:**
+   - Developed a notification system to alert users of important interactions.
+   - Integrated notifications into the user interface.
+
+3. **Optimization:**
+   - Conducted performance testing and identified bottlenecks.
+   - Implemented optimization strategies to improve application performance.
+
+4. **Final Testing and Deployment:**
+   - Conducted thorough testing of all features.
+   - Prepared the application for deployment.
+
+**Challenges:**
+- Ensuring real-time communication is reliable and efficient.
+
+**Next Steps:**
+- Deploy the application to a cloud platform (e.g., AWS, Heroku).
+- Monitor the application and address any post-deployment issues.
+- Plan for future feature enhancements and updates.
